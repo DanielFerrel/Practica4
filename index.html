@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg" href="/icon/netflix_logo_icon.svg">
+    <title>Netflix</title>
+</head>
+<body>
+    <div class="login-page">
+        <header class="header">
+            <div class="hero">
+                <img src="/icon/netflix_official_logo_icon.svg" alt="Logo" class="logo" draggable="false"> <!--El draggable es para no arrastrar la imágen-->
+
+                <div class="signin">
+                    <h2>Sign In</h2>
+                    <form action="">
+                        <input type="text" name="name" id="name" placeholder="Email or phone number" autocomplete="off">
+                        <input type="password" name="password" id="password" placeholder="Password" autocomplete="off">
+                        <input type="submit" value="Sign In">
+                    </form>
+                    <div class="help">
+                        <div class="check">
+                            <input type="checkbox" name="remeber" id="remeber">
+                            <label for="remeber">Remember Me</label>
+                        </div>
+                        <div class="need">
+                            <a href="#">Need help?</a>
+                        </div>
+                    </div>
+                    <div class="footer-signin">
+                        <a href="#" class="login"><img src="/icon/facebook.svg" class="facebook" alt="Icon">Login with Facebook</a>
+                        <p class="new">New to Netflix? <a href="#">Sign up now</a></p>
+                        <p class="protect">This page is protect by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <footer class="footer">
+            <div class="footer-info">
+                <p>Questions? Call <a href="tel:+504 9999-9999(HN)"></a></p>
+                <ul class="footer-links">
+                    <li class="footer-links_item"><a href="#">FAQ</a></li>
+                    <li class="footer-links_item"><a href="#">Help Center</a></li>
+                    <li class="footer-links_item"><a href="#">Terms of Use</a></li>
+                    <li class="footer-links_item"><a href="#">Privacy</a></li>
+                    <li class="footer-links_item"><a href="#">Cookie Preferences</a></li>
+                    <li class="footer-links_item"><a href="#">Corporate Information</a></li>
+                </ul>
+                <select name="language" id="language">
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
